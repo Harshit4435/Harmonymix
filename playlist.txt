@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music List App - Playlist</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Canton', sans-serif;
+        }
+        .song-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Playlist</h1>
+        
+        <!-- Song Boxes -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="song-box">
+                    <h3>Song 1</h3>
+                    <p>Artist: Artist 1</p>
+                    <p>Album: Album 1</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="song-box">
+                    <h3>Song 2</h3>
+                    <p>Artist: Artist 2</p>
+                    <p>Album: Album 2</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="song-box">
+                    <h3>Song 3</h3>
+                    <p>Artist: Artist 3</p>
+                    <p>Album: Album 3</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="song-box">
+                    <h3>Song 4</h3>
+                    <p>Artist: Artist 4</p>
+                    <p>Album: Album 4</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Song Boxes -->
+        
+    </div>
+</body>
+</html>
